@@ -9,6 +9,7 @@ app = Flask(__name__)
 # Should return "Welcome to the Flask App"
 @app.route('/', methods=['GET'])
 def index():
+    print('Hello World')
     return "Welcome to the Flask App"
 
 
